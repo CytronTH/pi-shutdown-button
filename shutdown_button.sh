@@ -10,7 +10,7 @@ echo "Stopping shutdown process"
 pkill -f /usr/local/bin/shutdown_button.py
 ;;
 *)
-echo "Usage: /etc/init.d/shutdown_button.py {start|stop}"
+echo "Usage: /etc/init.d/shutdown_button.sh {start|stop}"
 exit 1
 ;;
 esac
